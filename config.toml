@@ -1,9 +1,11 @@
-baseurl = "https://tdehaeze.github.io/veille-vlc/"
+baseurl = ""
 title = "Veille VLC"
 copyright = "&copy; 2016 Dehaeze Thomas"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+
+relativeURLs = true
 
 publishDir = "docs"
 

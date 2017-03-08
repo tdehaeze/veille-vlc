@@ -4,7 +4,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -12,7 +12,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/talk/example-talk/</loc>
+      <loc>/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -20,7 +20,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -28,7 +28,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -36,7 +36,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -44,7 +44,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/project/deep-learning/</loc>
+      <loc>/project/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -52,7 +52,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/project/example-external-project/</loc>
+      <loc>/project/example-external-project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -60,7 +60,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/post/getting-started/</loc>
+      <loc>/post/getting-started/</loc>
       <lastmod>2016-04-20T12:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/post/widgets/</loc>
+      <loc>/post/widgets/</loc>
       <lastmod>2016-04-20T11:00:00+00:00</lastmod>
     </url>
     
@@ -76,7 +76,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/post/managing-content/</loc>
+      <loc>/post/managing-content/</loc>
       <lastmod>2016-04-20T11:00:00+00:00</lastmod>
     </url>
     
@@ -84,7 +84,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/post/writing-markdown-latex/</loc>
+      <loc>/post/writing-markdown-latex/</loc>
       <lastmod>2016-04-20T10:00:00+00:00</lastmod>
     </url>
     
@@ -92,7 +92,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/publication/person-re-identification/</loc>
+      <loc>/publication/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -100,7 +100,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/post/migrate-from-jekyll/</loc>
+      <loc>/post/migrate-from-jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -108,7 +108,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/publication/clothing-search/</loc>
+      <loc>/publication/clothing-search/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -116,7 +116,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/publication_types/1/</loc>
+      <loc>/publication_types/1/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -125,7 +125,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/publication_types/2/</loc>
+      <loc>/publication_types/2/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -134,7 +134,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/tags/deep-learning/</loc>
+      <loc>/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -143,7 +143,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/tags/demo/</loc>
+      <loc>/tags/demo/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -152,7 +152,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/tags/hugo/</loc>
+      <loc>/tags/hugo/</loc>
       <lastmod>2016-04-20T12:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -161,7 +161,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/tags/jekyll/</loc>
+      <loc>/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -170,7 +170,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -179,7 +179,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/publication_types/</loc>
+      <loc>/publication_types/</loc>
       <priority>0</priority>
     </url>
     
@@ -187,7 +187,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/tags/</loc>
+      <loc>/tags/</loc>
       <priority>0</priority>
     </url>
     
@@ -195,7 +195,7 @@
     
     
     <url>
-      <loc>https://tdehaeze.github.io/veille-vlc/</loc>
+      <loc>/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
