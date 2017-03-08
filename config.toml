@@ -1,6 +1,6 @@
 baseurl = "https://tdehaeze.github.io/veille-vlc/"
-title = "Academic"
-copyright = "&copy; 2016 Your Name"
+title = "Veille VLC"
+copyright = "&copy; 2016 Dehaeze Thomas"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -21,7 +21,7 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true
 
 [params]
-  name = "Lena Smith"
+  name = "Thomas Dehaeze"
   role = "Professor of Artificial Intelligence"
   organization = "Stanford University"
   organization_url = ""
