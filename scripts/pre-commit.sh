@@ -1,4 +1,4 @@
 ### pre-commit.sh
 
-hugo
+hugo > /dev/null
 
