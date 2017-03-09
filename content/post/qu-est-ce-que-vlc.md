@@ -9,9 +9,10 @@ tags    = []
 math    = false
 +++
 
-Content can be written using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics), and [Hugo Shortcodes](http://gohugo.io/extras/shortcodes/). Additionally, HTML may be used for advanced formatting.<!--more--> This article gives an overview of the most common formatting options.
+Comming soon!
 
-test
+<!--
+Content can be written using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics), and [Hugo Shortcodes](http://gohugo.io/extras/shortcodes/). Additionally, HTML may be used for advanced formatting.<!--more--> This article gives an overview of the most common formatting options.
 
 ## Emphasis
 
@@ -40,6 +41,7 @@ A general image:
 A numbered figure with caption:
 
     {{</* figure src="/img/screenshot.png" title="Figure Caption" */>}}
+
 
 ## Links
 
@@ -225,3 +227,6 @@ This will display the following *warning* block:
 {{% alert warning %}}
 Here's some important information...
 {{% /alert %}}
+
+-->
+
