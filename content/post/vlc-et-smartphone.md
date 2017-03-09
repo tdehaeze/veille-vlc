@@ -1,10 +1,12 @@
 +++
-date = "2017-03-09T10:00:00"
-draft = false
-tags = []
-title = "Récupérer un signal lumineux sur un smartphone"
-math = false
+title   = "Récupérer un signal lumineux sur un smartphone"
+date    = "2017-03-09T10:00:00"
+weight  = 4
 summary = "Le but est ici de voir quels sont les possibilités de récupérer un signal provenant d'une modulation lumineuse sur un smartphone"
+
+draft   = false
+tags    = []
+math    = false
 +++
 
 Le but est ici de voir quels sont les possibilités de récupérer un signal provenant d'une modulation lumineuse sur un smartphone.

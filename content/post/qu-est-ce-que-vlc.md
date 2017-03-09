@@ -1,9 +1,12 @@
 +++
-date = "2017-03-08T10:00:00"
-draft = false
-tags = []
-title = "Qu'est ce que la communication par lumière visible ?"
-math = true
+title   = "Qu'est ce que la communication par lumière visible ?"
+date    = "2017-03-08T10:00:00"
+weight  = 1
+summary = ""
+
+draft   = false
+tags    = []
+math    = false
 +++
 
 Content can be written using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics), and [Hugo Shortcodes](http://gohugo.io/extras/shortcodes/). Additionally, HTML may be used for advanced formatting.<!--more--> This article gives an overview of the most common formatting options.
