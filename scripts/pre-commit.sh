@@ -2,3 +2,5 @@
 
 hugo > /dev/null
 
+git add docs
+
