@@ -2,3 +2,15 @@
     box-shadow: none;
 }
 
+figure.inline-block {
+    display: inline-block;
+    margin: 20px;
+}
+
+figure.no-caption figcaption::before {
+    display: none;
+}
+
+figure.center-caption figcaption {
+    text-align: center;
+}

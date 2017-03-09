@@ -164,6 +164,11 @@ defaultContentLanguageInSubdir = false
 #   weight = 4
 
 [[menu.main]]
+  name = "Outils"
+  url = "#outils"
+  weight = 5
+
+[[menu.main]]
   name = "Bibliographie"
   url = "#bibliographie"
   weight = 6
