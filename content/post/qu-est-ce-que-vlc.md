@@ -25,10 +25,6 @@ Content can be written using [Markdown](https://github.com/adam-p/markdown-here/
     Combined emphasis with **asterisks and _underscores_**.
 
     Strikethrough with ~~two tildes~~.
-
-## Ordered lists
-
-    1. First item
     2. Another item
 
 ## Unordered lists

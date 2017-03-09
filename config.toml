@@ -35,8 +35,6 @@ defaultContentLanguageInSubdir = false
   # Enable comments by entering your Disqus shortname
   disqusShortname = "veille-vlc"
 
-  disqus = "veille-vlc"
-
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = "tdehaeze"
 
@@ -91,7 +89,7 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["custom.css"]
   custom_js  = []
 
   # Publication types.

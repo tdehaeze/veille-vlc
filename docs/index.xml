@@ -11,6 +11,80 @@
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Récupérer un signal lumineux sur un smartphone</title>
+      <link>/post/vlc-et-smartphone/</link>
+      <pubDate>Thu, 09 Mar 2017 10:00:00 +0000</pubDate>
+      
+      <guid>/post/vlc-et-smartphone/</guid>
+      <description>
+
+&lt;p&gt;Le but est ici de voir quels sont les possibilités de récupérer un signal provenant d&amp;rsquo;une modulation lumineuse sur un smartphone.&lt;/p&gt;
+
+&lt;h1 id=&#34;capteurs-à-notre-disposition&#34;&gt;Capteurs à notre disposition&lt;/h1&gt;
+
+&lt;p&gt;Premièrement, regardons quels sont les capteurs à notre disposition.&lt;/p&gt;
+
+&lt;h3 id=&#34;capteur-de-luminosité&#34;&gt;Capteur de luminosité&lt;/h3&gt;
+
+&lt;p&gt;Le premier capteur permettant de récupérer un signal lumineux est le capteur de luminosité présent sur la quasi totalité des smartphone récents. Ce capteur permet généralement de régler la luminosité de l&amp;rsquo;écran en fonction de la luminosité extérieure. Ce capteur est est en fait une simple photodiode (ou phototransistor).
+Cependant, la fréquence de coupure en haute fréquence de ce capteur est très basse, en effet les photodiodes utilisées ne sont pas adaptés pour travailler à haute fréquence&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-smartphone/iphone6_capteur_luminosite.png&#34; alt=&#34;Capteur de luminosité&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;caméra&#34;&gt;Caméra&lt;/h3&gt;
+
+&lt;p&gt;L&amp;rsquo;autre capteur présent sur les smartphone permettant de récupérer une information lumineuse est la caméra. Cette caméra est généralement un &lt;a href=&#34;https://fr.wikipedia.org/wiki/Capteur_photographique#Capteur_CMOS&#34; target=&#34;_blank&#34;&gt;capteur photographique CMOS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-smartphone/capteur_cmos.jpg&#34; alt=&#34;Capteur CMOS&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cependant, les capteurs CMOS intégrés aux smartphones actuels l&amp;rsquo;acquisition que de 30 voir 60 images par secondes, ce qui est beaucoup trop faible pour obtenir un débit suffisant. Cependant, il existe une technique qui va permettre d&amp;rsquo;obtenir un débit relativement élevé: le &lt;a href=&#34;#le-rolling-shutter-effect&#34;&gt;Rolling Shutter Effect&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;adaptateur-sur-prise-jack&#34;&gt;Adaptateur sur prise Jack&lt;/h3&gt;
+
+&lt;p&gt;Une autre possibilité est d&amp;rsquo;utiliser un adaptateur qui vient se brancher sur la prise jack du téléphone. L&amp;rsquo;adaptateur est composé d&amp;rsquo;un circuit électronique de commande ainsi que d&amp;rsquo;une photodiode et d&amp;rsquo;une LED adaptées pour un fonctionnement haute fréquence (par exemple à base de GaAs). Cette solution à l&amp;rsquo;avantage de pouvoir également émettre de l&amp;rsquo;information grâce à une photodiode. Cependant, le débit va être limité par la fréquence d&amp;rsquo;échantillonnage de la carte son du smartphone. En effet, l&amp;rsquo;information lumineuse va être transformée en information électrique par la photodiode avant d&amp;rsquo;être transmisse au téléphone par l&amp;rsquo;intermédiaire de la carte son.
+Cette solution est tout de même commercialisée, et est utilisé par Disney sur son &lt;a href=&#34;https://www.disneyresearch.com/project/visible-light-communication/&#34; target=&#34;_blank&#34;&gt;projet de recherche sur la communication par lumière visible&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-smartphone/adaptateur_telephone.png&#34; alt=&#34;Adaptateur sur prise jack&#34; /&gt;
+&lt;img src=&#34;./img/vlc-smartphone/lifi_prise_jack.jpg&#34; alt=&#34;Adaptateur sur prise jack&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;capteur-dédié&#34;&gt;Capteur dédié&lt;/h3&gt;
+
+&lt;p&gt;La dernière solution et certainement la plus efficace et l&amp;rsquo;implémentation d&amp;rsquo;un capteur dédié à la communication par lumière visible dans les smartphones. De tels capteurs seront probablement présent dans la plupart des smartphones haut de gamme d&amp;rsquo;ici 5 ans. Par exemple, le premier smartphone présentant un capteur dédié LiFi a été présenté au CES 2014 par la société &lt;a href=&#34;http://www.oledcomm.com/&#34; target=&#34;_blank&#34;&gt;oledcomm&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&#34;utilisation-de-la-caméra&#34;&gt;Utilisation de la caméra&lt;/h1&gt;
+
+&lt;h3 id=&#34;fonction-d-un-capteur-cmos&#34;&gt;Fonction d&amp;rsquo;un capteur CMOS&lt;/h3&gt;
+
+&lt;p&gt;Contrairement à ce que l&amp;rsquo;on pourrait penser, pour un capteur CMOS, l&amp;rsquo;acquisition pour une image ne va pas se faire simultanément pour tous les pixels, mais ligne de pixel par ligne de pixels. Sur l&amp;rsquo;image ci dessous, les pixels de gauche acquièrent le signal avant les pixels de droite, ainsi, si la vitesse d&amp;rsquo;acquisition d&amp;rsquo;une ligne de pixels est suffisamment grande, il devrait être possible d&amp;rsquo;observer le signal lumineux de manière spatiale sur l&amp;rsquo;image obtenue.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-smartphone/cmos_ligne_par_ligne.png&#34; alt=&#34;CMOS Aquisition ligne par ligne&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;le-rolling-shutter-effect&#34;&gt;Le Rolling Shutter Effect&lt;/h3&gt;
+
+&lt;p&gt;L&amp;rsquo;effet de ce fonctionnement des capteurs CMOS est visible lorsque l&amp;rsquo;on prend des objets qui tournent à très grande vitesse. Ci dessous, une image est prise d&amp;rsquo;un ventilateur tournant à très grande vitesse et on peut observer une déformation de l&amp;rsquo;image à droite. Cette déformation est due au fait que le ventilateur a eu le temps de tourner pendant l&amp;rsquo;instant d&amp;rsquo;acquisition des pixels du haut et des pixels du bas. On appelle cet effet le Rolling Shutter Effect.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-smartphone/rolling_shutter_effect.png&#34; alt=&#34;Rolling Shutter Effect&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;application-android&#34;&gt;Application Android&lt;/h3&gt;
+
+&lt;p&gt;En pratique, il est possible d&amp;rsquo;utiliser cet effet pour acquérir un signal lumineux. Sur Android, depuis la version Lolipop, il y a une nouvelle API Caméra 2 qui permet de régler finement tous les paramètres de la caméra notamment l’exposure time, cela permet de se mettre dans les conditions de l&amp;rsquo;obtention de ce rolling shutter effect.&lt;/p&gt;
+
+&lt;p&gt;Un &amp;ldquo;proof of concept&amp;rdquo; a été développé par &lt;a href=&#34;http://alexisduque.me/&#34; target=&#34;_blank&#34;&gt;Alexis Duque&lt;/a&gt;, il y a une petite carte électronique comportant un capteur de température, un micro contrôleur et une LED. L&amp;rsquo;idée et de récupérer la température ambiante et de la transmettre en utilisant la LED. Puis en utilisant le capteur CMOS d&amp;rsquo;un téléphone Android, et en utilisant une application dédiée, il est possible de récupérer le signal et de l&amp;rsquo;afficher à l&amp;rsquo;écran.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-smartphone/application_android.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Bande Passante d&amp;rsquo;une photodiode : &lt;a href=&#34;https://fr.wikipedia.org/wiki/Photodiode_pin#Limitations_en_fr.C3.A9quence&#34; target=&#34;_blank&#34;&gt;wikipedia&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Qu&#39;est ce que la communication par lumière visible ?</title>
       <link>/post/qu-est-ce-que-vlc/</link>
       <pubDate>Wed, 08 Mar 2017 10:00:00 +0000</pubDate>
@@ -36,11 +110,6 @@ Bold with **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough with ~~two tildes~~.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;ordered-lists&#34;&gt;Ordered lists&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;1. First item
 2. Another item
 &lt;/code&gt;&lt;/pre&gt;
 
