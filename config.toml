@@ -35,6 +35,8 @@ defaultContentLanguageInSubdir = false
   skype = ""
   telegram = ""
 
+  disqus = "veille-vlc"
+
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = "tdehaeze"
 
