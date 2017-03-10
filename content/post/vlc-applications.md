@@ -19,12 +19,29 @@ math    = false
 - Réduire les coûts de production
 
 # Les smart cities
+![](/img/vlc-applications/cars.png)
+![](/img/vlc-applications/traffic.png)
 
 # VLC dans le transport
 
 # Le Li-Fi
 
+# Le jeu et le divertissement
+![](/img/vlc-applications/disney_1.png)
+
+![](/img/vlc-applications/disney_2.png)
+![](/img/vlc-applications/market_emitter.png)
+![](/img/vlc-applications/market_receiver.png)
+
+![](/img/vlc-applications/market.png)
+![](/img/vlc-applications/museum.png)
+![](/img/vlc-applications/museum_2.png)
+
+![](/img/vlc-applications/sncf_lifi.jpg)
+
 # Localisation Indoor
+![](/img/vlc-applications/localisation_indoor_simple.png)
+![](/img/vlc-applications/localisation_indoor_tri.png)
 
 # Online to Offline Marketing
 
