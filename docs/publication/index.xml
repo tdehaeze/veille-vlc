@@ -11,6 +11,15 @@
     <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Conférence TED - Wireless data from every light bulb</title>
+      <link>/publication/harald_hass/</link>
+      <pubDate>Thu, 09 Mar 2017 15:53:48 +0100</pubDate>
+      
+      <guid>/publication/harald_hass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Groupe de recherche sur Disney sur la communication par lumière visible</title>
       <link>/publication/disneyresearch/</link>
       <pubDate>Thu, 09 Mar 2017 15:53:48 +0100</pubDate>

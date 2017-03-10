@@ -7,6 +7,9 @@ summary = "Le but est ici de voir quels sont les possibilités de récupérer un
 draft   = false
 tags    = []
 math    = false
+
+[header]
+    image = "headers/smartphone_lifi.jpg"
 +++
 
 Le but est ici de voir quels sont les possibilités de récupérer un signal provenant d'une modulation lumineuse sur un smartphone.

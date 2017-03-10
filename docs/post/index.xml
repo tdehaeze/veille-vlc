@@ -16,232 +16,101 @@
       <pubDate>Wed, 08 Mar 2017 10:00:00 +0000</pubDate>
       
       <guid>/post/qu-est-ce-que-vlc/</guid>
-      <description>&lt;p&gt;Comming soon!&lt;/p&gt;
+      <description>
 
-&lt;!--
-Content can be written using [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics), and [Hugo Shortcodes](http://gohugo.io/extras/shortcodes/). Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.
+&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;/h2&gt;
 
-## Emphasis
+&lt;p&gt;Selon Wikipedia:&lt;/p&gt;
 
-    Italics with *asterisks* or _underscores_.
+&lt;blockquote&gt;
+&lt;p&gt;Visible light communication (VLC) is a data communications variant which uses visible light between 400 and 800 THz (780–375 nm). VLC is a subset of optical wireless communications technologies.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-    Bold with **asterisks** or __underscores__.
+&lt;p&gt;C&amp;rsquo;est l&amp;rsquo;utilisation de la lumière visible comme support de l&amp;rsquo;information. Autrement dis, c&amp;rsquo;est l&amp;rsquo;utilisation d&amp;rsquo;ondes électromagnétiques à des fréquences entre 400 et 800THz pour transmettre de l&amp;rsquo;information.&lt;/p&gt;
 
-    Combined emphasis with **asterisks and _underscores_**.
+&lt;p&gt;En général, les systèmes de communications utilisent les radio fréquences (300MHz - 10GHz) comme le Wifi, le bluetooth, la 3G/4G, &amp;hellip;&lt;/p&gt;
 
-    Strikethrough with ~~two tildes~~.
-    2. Another item
+&lt;p&gt;&lt;img src=&#34;../img/vlc-definition/spectre_electromagn.png&#34; alt=&#34;Spectre électromagnétique&#34; /&gt;&lt;/p&gt;
 
-## Unordered lists
+&lt;p&gt;En fait, il s&amp;rsquo;agit plus précisément d&amp;rsquo;une modulation en amplitude d&amp;rsquo;une lumière visible. Le mode de fonctionnement d&amp;rsquo;un tel système de transmission de donnée est expliqué &lt;a href=&#34;#principe&#34;&gt;un peu plus bas&lt;/a&gt;.&lt;/p&gt;
 
-    * First item
-    * Another item
+&lt;h3 id=&#34;émetteur-et-récepteur&#34;&gt;Émetteur et Récepteur&lt;/h3&gt;
 
-## Images
+&lt;p&gt;Comme tout système de communication, il y a un émetteur et un récepteur (il y a un &lt;a href=&#34;../post/emetteurs-recepteurs/&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; plus détaillée sur les émetteurs et récepteurs).&lt;/p&gt;
 
-Images may be added to a page by placing them in your `static/img/` folder and referencing them using one of the following two notations:
+&lt;p&gt;&lt;img src=&#34;../img/vlc-definition/emitter_receiver.png&#34; alt=&#34;émetteur et recepteur&#34; /&gt;&lt;/p&gt;
 
-A general image:
+&lt;p&gt;Ici l&amp;rsquo;émetteur va généralement être une &lt;a href=&#34;https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente&#34; target=&#34;_blank&#34;&gt;Diode électroluminescente&lt;/a&gt; (LED) pour diverses raisons qui sont expliqués dans un l&amp;rsquo;article &lt;a href=&#34;../post/emetteurs-recepteurs/&#34; target=&#34;_blank&#34;&gt;émetteurs et récepteurs pour VLC&lt;/a&gt;.&lt;/p&gt;
 
-    ![alternative text for search engines](/img/screenshot.png)
+&lt;p&gt;&lt;img src=&#34;../img/vlc-definition/ampoule_led.png&#34; alt=&#34;Ampoule LED&#34; /&gt;&lt;/p&gt;
 
-A numbered figure with caption:
+&lt;p&gt;Le récepteur va lui être une photodiode, bien qu&amp;rsquo;ils existent d&amp;rsquo;autres systèmes pour récupérer l&amp;rsquo;information lumineuse, par exemple pour les smartphone (voir article &lt;a href=&#34;../post/vlc-et-smartphone/&#34; target=&#34;_blank&#34;&gt;VLC et Smartphone&lt;/a&gt;).&lt;/p&gt;
 
-    {{&lt; figure src=&#34;../img/screenshot.png&#34; title=&#34;Figure Caption&#34; &gt;}}
+&lt;h2 id=&#34;origines&#34;&gt;Origines&lt;/h2&gt;
 
+&lt;p&gt;Première apparition : &lt;a href=&#34;https://www.youtube.com/watch?v=NaoSp4NpkGg&#34; target=&#34;_blank&#34;&gt;conférence TED&lt;/a&gt; d&amp;rsquo;Harald Haas&lt;/p&gt;
 
-## Links
 
-    [I&#39;m a link](https://www.google.com)
-    [A post]({{&lt; ref &#34;post/hi.md&#34; &gt;}})
-    [A publication]({{&lt; ref &#34;publication/hi.md&#34; &gt;}})
-    [A project]({{&lt; ref &#34;project/hi.md&#34; &gt;}})
-    [Another section]({{&lt; relref &#34;hi.md#who&#34; &gt;}})
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/NaoSp4NpkGg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
 
-## Emojis
 
-See the [Emoji cheat sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/) for available emoticons. The following serves as an example, but you should remove the spaces between each emoji name and pair of semicolons:
+&lt;h2 id=&#34;principe-de-fonctionnement&#34;&gt;Principe de fonctionnement&lt;/h2&gt;
 
-    I : heart : Academic : smile :
-    
-I ❤️ Academic 😄
+&lt;p&gt;Comme expliqué précédemment, l&amp;rsquo;information va se transmettre par une modulation en amplitude d&amp;rsquo;un signal lumineux. Pour transmettre un 0, on va &amp;ldquo;éteindre&amp;rdquo; la LED, et pour transmettre un 1 on va &amp;ldquo;allumer&amp;rdquo; la LED. Ceci à très haute fréquence (de quelques kHz à GHz suivant les applications) afin d&amp;rsquo;avoir un débit important. A bien noter qu&amp;rsquo;à ces fréquences, les &amp;ldquo;clignotements&amp;rdquo; de la LED sont absolument invisible à l&amp;rsquo;œil nu.&lt;/p&gt;
 
-## Blockquote
+&lt;p&gt;&lt;img src=&#34;../img/vlc-definition/led_on_off.png&#34; alt=&#34;Led On Off&#34; /&gt;&lt;/p&gt;
 
-    &gt; This is a blockquote.
+&lt;p&gt;Cependant, si l&amp;rsquo;on transmet les informations ce cette manière, la LED va s&amp;rsquo;allumer lorsqu&amp;rsquo;il y a transmission d&amp;rsquo;information et s éteindre lorsqu&amp;rsquo;il n&amp;rsquo;y a pas d&amp;rsquo;informations à transmettre. Ainsi l&amp;rsquo;intensité moyenne de la LED va dépendre de l&amp;rsquo;information transmise, ceci est problématique, et on règle ce problème en utilisant le &lt;a href=&#34;#codage-manchester&#34;&gt;codage Manchester&lt;/a&gt;.&lt;/p&gt;
 
-&gt; This is a blockquote.
+&lt;h3 id=&#34;codage-manchester&#34;&gt;Codage Manchester&lt;/h3&gt;
 
-## Footnotes
+&lt;p&gt;Afin d&amp;rsquo;avoir une intensité moyenne qui soit constante quelque soit les données transférées, on utilise généralement un &lt;a href=&#34;https://fr.wikipedia.org/wiki/Codage_Manchester&#34; target=&#34;_blank&#34;&gt;codage Manchester&lt;/a&gt;. L&amp;rsquo;idée est donc de &amp;ldquo;coder&amp;rdquo; un état haut en un état haut suivis d&amp;rsquo;un état bas, et de &amp;ldquo;coder&amp;rdquo; un état bas en un état bas suivis d&amp;rsquo;un état haut. Un exemple de codage Manchester est présenté ci dessous.&lt;/p&gt;
 
-    I have more [^1] to say.
-    
-    [^1]: Footnote example.
+&lt;p&gt;&lt;img src=&#34;../img/vlc-definition/Codage_Manchester.png&#34; alt=&#34;Codage Manchester&#34; /&gt;&lt;/p&gt;
 
-I have more [^1] to say.
-## Code highlighting
+&lt;h2 id=&#34;comparaison-avec-d-autres-systèmes-de-communication&#34;&gt;Comparaison avec d&amp;rsquo;autres systèmes de communication&lt;/h2&gt;
 
-Pass the *language* of the code, such as `python`, as a parameter after three backticks:
+&lt;p&gt;Avant de passer à la présentation des différentes avantages et inconvénients d&amp;rsquo;utiliser la lumière comme support de l&amp;rsquo;information, il convient tout d&amp;rsquo;abord de comparer rapidement les débits et distances de communication que l&amp;rsquo;ont peut obtenir avec la communication par lumière visible avec les autres modes de communication.&lt;/p&gt;
 
-    ```python
-    # Example of code highlighting
-    input_string_var = input(&#34;Enter some data: &#34;)
-    print(&#34;You entered: {}&#34;.format(input_string_var))
-    ```
-Result:
+&lt;p&gt;&lt;img src=&#34;../img/vlc-definition/freq_debit.png&#34; alt=&#34;VLC : Fréquence et débit&#34; /&gt;&lt;/p&gt;
 
-```python
-# Example of code highlighting
-input_string_var = input(&#34;Enter some data: &#34;)
-print(&#34;You entered: {}&#34;.format(input_string_var))
-```
+&lt;p&gt;La communication par lumière visible est donc une communication relativement courte distance, en effet les radio fréquences utilisés par les autres systèmes de communication permettent des distances de communication bien plus importantes.&lt;/p&gt;
 
-### Highlighting options
+&lt;p&gt;Le débit obtenue en communication par lumière visible est très variable. Il est possible d&amp;rsquo;obtenir des débits très importants (plus de 10Gbps en laboratoire) mais également des débits plus faibles. Cette grande plage de débit va permettre diverses applications (voir l&amp;rsquo;article sur les &lt;a href=&#34;../post/vlc-applications/&#34; target=&#34;_blank&#34;&gt;applications du VLC&lt;/a&gt;).&lt;/p&gt;
 
-The Academic theme uses [highlight.js](https://highlightjs.org) for source code highlighting, and highlighting is enabled by default for all pages. However, several configuration options are supported that allow finer-grained control over highlight.js.
+&lt;h2 id=&#34;avantages&#34;&gt;Avantages&lt;/h2&gt;
 
-The following table lists the supported options for configuring highlight.js, along with their expected type and a short description. A &#34;yes&#34; in the **config.toml** column means the value can be set globally in `config.toml`, and a &#34;yes&#34; in the **preamble** column means that the value can be set locally in a particular page&#39;s preamble.
+&lt;h3 id=&#34;sécurité&#34;&gt;Sécurité&lt;/h3&gt;
 
-option                | type    | description                     | config.toml | preamble
-----------------------|---------|---------------------------------|-------------|---------
-`highlight`           | boolean | enable/disable highlighting     | yes         | yes
-`highlight_languages` | slice   | choose additional languages     | yes         | yes
-`highlight_style`     | string  | choose a highlighting style     | yes         | no
-`highlight_version`   | string  | choose the highlight.js version | yes         | no
+&lt;p&gt;Le premier avantage et non des moindre et la sécurisation dans la transmission des données. En effet le flux de données n&amp;rsquo;est accessible que dans le &amp;ldquo;faisceaux direct&amp;rdquo; de lumière. Ainsi, le contrôle de la portée de l&amp;rsquo;information est très bon, contrairement aux systèmes de communication utilisant des radio fréquences.&lt;/p&gt;
 
+&lt;h3 id=&#34;santé&#34;&gt;Santé&lt;/h3&gt;
 
-#### Option `highlight`
+&lt;p&gt;Les études sur la &lt;a href=&#34;https://fr.wikipedia.org/wiki/Risques_sanitaire_des_télécommunications&#34; target=&#34;_blank&#34;&gt;nocivité des ondes électromagnétiques sur l&amp;rsquo;Homme&lt;/a&gt; sont nombreuses (voir le &lt;a href=&#34;http://www.who.int/topics/electromagnetic_fields/fr/&#34; target=&#34;_blank&#34;&gt;site de l&amp;rsquo;OMS&lt;/a&gt;), et aucune conclusion claire sur l&amp;rsquo;effet de ces ondes à long terme ne peut être fait. En tout cas, il y a de plus en plus une méfiance vis à vis de ces ondes, et l&amp;rsquo;utilisation de la lumière visible est une solution à cette méfiance.&lt;/p&gt;
 
-The `highlight` option allows enabling or disabling the inclusion of highlight.js, either globally or for a particular page. If the option is unset, it has the same effect as if you had specified `highlight = true`. That is, the highlight.js javascript and css files will be included in every page. If you&#39;d like to only include highlight.js files on pages that actually require source code highlighting, you can set `highlight = false` in `config.toml`, and then override it by setting `highlight = true` in the preamble of any pages that require source code highlighting. Conversely, you could enable highlighting globally, and disable it locally for pages that do not require it. Here is a table that shows whether highlighting will be enabled for a page, based on the values of `highlight` set in `config.toml` and/or the page&#39;s preamble.
+&lt;h3 id=&#34;bande-de-fréquence-utilisée&#34;&gt;Bande de fréquence utilisée&lt;/h3&gt;
 
-config.toml   | page preamble  | highlighting enabled for page?
---------------|----------------|-------------------------------
-unset or true | unset or true  | yes
-unset or true | false          | no
-false         | unset or false | no
-false         | true           | yes
+&lt;p&gt;Tout d&amp;rsquo;abord la bande de fréquence utilisée est très grande, plus de 300THz (10000 fois supérieure à la bande RF) ce qui permet la transmission de nombreuses informations simultanément sur plusieurs bandes de fréquence.
+De plus il n&amp;rsquo;y a pas d&amp;rsquo;interférences avec les radio fréquences, donc un tel système est immunisé au brouillage électromagnétique ambiant donc le niveau moyen augmente chaque année et qui devrait augmenter d&amp;rsquo;autant plus avec l&amp;rsquo;arrivée de l&amp;rsquo;Internet des objets (voir article sur &lt;a href=&#34;http://spectrum.ieee.org/telecom/wireless/electronic-noise-is-drowning-out-the-internet-of-things&#34; target=&#34;_blank&#34;&gt;IEEE&lt;/a&gt;).&lt;/p&gt;
 
-#### Option `highlight_languages`
+&lt;p&gt;La non génération de radio fréquences est également un atout de taille pour l&amp;rsquo;utilisation dans des lieux où les contraintes sont fortes comme les Hôpitaux et ou les avions.&lt;/p&gt;
 
-The `highlight_languages` option allows you to specify additional languages that are supported by highlight.js, but are not considered &#34;common&#34; and therefore are not supported by default. For example, if you want source code highlighting for Go and clojure in all pages, set `highlight_languages = [&#34;go&#34;, &#34;clojure&#34;]` in `config.toml`. If, on the other hand, you want to enable a language only for a specific page, you can set `highlight_languages` in that page&#39;s preamble.
+&lt;p&gt;Finalement, cette bande de fréquence n&amp;rsquo;est pour l&amp;rsquo;instant pas régulée, son utilisation est donc gratuite.&lt;/p&gt;
 
-The `highlight_languages` options specified in `config.toml` and in a page&#39;s preamble are additive. That is, if `config.toml` contains, `highlight_languages = [&#34;go&#34;]` and the page&#39;s preamble contains `highlight_languages = [&#34;ocaml&#34;]`, then javascript files for *both* go and ocaml will be included for that page.
+&lt;h3 id=&#34;coût&#34;&gt;Coût&lt;/h3&gt;
 
-If the `highlight_languages` option is set, then the corresponding javascript files will be served from the [cdnjs server](https://cdnjs.com/libraries/highlight.js/). To see a list of available languages, visit the [cdnjs page](https://cdnjs.com/libraries/highlight.js/) and search for links with the word &#34;languages&#34;.
+&lt;p&gt;Le coût de l&amp;rsquo;utilisation d&amp;rsquo;une telle technologie est relativement faible. En effet il ne suffit que d&amp;rsquo;une LED et d&amp;rsquo;un circuit de contrôle pour communiquer. Par exemple, pour les objets communicants où la contrainte de coût est forte, il peut être intéressant d&amp;rsquo;utiliser une LED plutôt qu&amp;rsquo;un module bluetooth qui est bien plus cher.&lt;/p&gt;
 
+&lt;h2 id=&#34;inconvénients&#34;&gt;Inconvénients&lt;/h2&gt;
 
-#### Option `highlight_style`
+&lt;p&gt;Cette technologie présente cependant quelques inconvénients. Tout d&amp;rsquo;abord, la portée est faible, en effet n&amp;rsquo;importe quel obstacle suffi pour bloquer le signal.&lt;/p&gt;
 
-The `highlight_style` option allows you to select an alternate css style for highlighted code. For example, if you wanted to use the solarized-dark style, you could set `highlight_style = &#34;solarized-dark&#34;` in `config.toml`.
+&lt;p&gt;Le signal va interférer avec la lumière extérieure, cet inconvénient peut être facilement résout en utilisant un filtre optique (passe bande réglé sur la longueur d&amp;rsquo;onde de la lumière utilisée) et un peu de traitement du signal.&lt;/p&gt;
 
-If the `highlight_style` option is unset, the default is to use the file `/css/highlight.min.css`, either the one provided by the Academic theme, or else the one in your local `static` directory.  The `/css/highlight.min.css` file provided by Academic is equivalent to the `github` style from highlight.js.
-
-If the `highlight_style` option *is* set, then `/css/highlight.min.css` is ignored, and the corresponding css file will be served from the [cdnjs server](https://cdnjs.com/libraries/highlight.js/). To see a list of available styles, visit the [cdnjs page](https://cdnjs.com/libraries/highlight.js/) and search for links with the word &#34;styles&#34;.
-
-See the [highlight.js demo page](https://highlightjs.org/static/demo/) for examples of available styles.
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Not all styles listed on the &lt;a href=&#34;https://highlightjs.org/static/demo/&#34; target=&#34;_blank&#34;&gt;highlight.js demo page&lt;/a&gt; are available from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. If you want to use a style that is not served by cdnjs, just leave &lt;code&gt;highlight_style&lt;/code&gt; unset, and place the corresponding css file in &lt;code&gt;/static/css/highlight.min.css&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;If you don&amp;rsquo;t want to change the default style that ships with Academic but you do want the style file served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;, set &lt;code&gt;highlight_style = &amp;quot;github&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-The `highlight_style` option is only recognized when set in `config.toml`. Setting `highlight_style` in your page&#39;s preamble has no effect.
-
-#### Option `highlight_version`
-
-The `highlight_version` option, as the name implies, allows you to select the version of highlight.js you want to use. The default value is &#34;9.9.0&#34;. The `highlight_version` option is only recognized when set in `config.toml`. Setting `highlight_version` in your page&#39;s preamble has no effect.
-
-## Twitter tweet
-
-To include a single tweet, pass the tweet’s ID from the tweet&#39;s URL as parameter to the shortcode:
-
-    {{&lt; tweet 666616452582129664 &gt;}}
-
-## Youtube
-
-    {{&lt; youtube w7Ft2ymGmfc &gt;}}
-
-## Vimeo
-
-    {{&lt; vimeo 146022717 &gt;}}
-
-## GitHub gist
-
-    {{&lt; gist USERNAME GIST-ID  &gt;}}
-
-## Speaker Deck
-
-    {{&lt; speakerdeck 4e8126e72d853c0060001f97 &gt;}}
-
-## $\rm \LaTeX$ math
-
-```TeX
-$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
-```
-
-$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
-
-Alternatively, inline math can be written by wrapping the formula with only a single `$`:
-
-    This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$
-
-This is inline: $\mathbf{y} = \mathbf{X}\boldsymbol\beta + \boldsymbol\varepsilon$
-
-## Table
-
-Code:
-
-```Markdown
-| Command           | Description                    |
-| ------------------| ------------------------------ |
-| `hugo`            | Build your website.            |
-| `hugo serve -w`   | View your website.             |
-```
-
-Result:
-
-| Command           | Description                    |
-| ------------------| ------------------------------ |
-| `hugo`            | Build your website.            |
-| `hugo serve -w`   | View your website.             |
-
-
-## Alerts
-
-Alerts are a useful feature that add side content such as tips, notes, or warnings to your articles. They are especially handy when writing educational tutorial-style articles. Use the corresponding shortcodes to enable alerts inside your content:
-
-    {{% alert note %}}
-    Here&#39;s a tip or note...
-    {{% /alert %}}
-
-This will display the following *note* block:
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Here&amp;rsquo;s a tip or note&amp;hellip;&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-    {{% alert warning %}}
-    Here&#39;s some important information...
-    {{% /alert %}}
-
-This will display the following *warning* block:
-
-&lt;div class=&#34;alert alert-warning&#34;&gt;
-  &lt;p&gt;Here&amp;rsquo;s some important information&amp;hellip;&lt;/p&gt;
-
-&lt;/div&gt;
-
-
---&gt;</description>
+&lt;p&gt;Finalement, l&amp;rsquo;inconvénient le plus fort qui limite aujourd&amp;rsquo;hui l&amp;rsquo;utilisation massive de ce mode de communication est la difficulté à faire du bidirectionnel. En effet, pour un objet connecté, il va être relativement simple de recevoir de l&amp;rsquo;information d&amp;rsquo;une infrastructure grâce à une photodiode, par contre il va être plus compliqué de transmettre de l&amp;rsquo;information à l&amp;rsquo;aide d&amp;rsquo;une LED pour des raisons pratiques.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -260,7 +129,26 @@ This will display the following *warning* block:
       <pubDate>Thu, 09 Mar 2017 15:58:57 +0100</pubDate>
       
       <guid>/post/vlc-applications/</guid>
-      <description>&lt;p&gt;Comming soon!&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;vlc-pour-l-internet-des-objets&#34;&gt;VLC pour l&amp;rsquo;Internet des objets&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bas débit : ~100bit/s à ~10kbit/s &lt;/li&gt;
+&lt;li&gt;Décongestionner les réseaux et désaturer le spectre des radio fréquences&lt;/li&gt;
+&lt;li&gt;Optimiser la consommation énergétique, l’autonomie&lt;/li&gt;
+&lt;li&gt;Réduire les coûts de production&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;les-smart-cities&#34;&gt;Les smart cities&lt;/h1&gt;
+
+&lt;h1 id=&#34;vlc-dans-le-transport&#34;&gt;VLC dans le transport&lt;/h1&gt;
+
+&lt;h1 id=&#34;le-li-fi&#34;&gt;Le Li-Fi&lt;/h1&gt;
+
+&lt;h1 id=&#34;localisation-indoor&#34;&gt;Localisation Indoor&lt;/h1&gt;
+
+&lt;h1 id=&#34;online-to-offline-marketing&#34;&gt;Online to Offline Marketing&lt;/h1&gt;
 </description>
     </item>
     
