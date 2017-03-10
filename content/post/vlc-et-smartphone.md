@@ -46,7 +46,7 @@ Cette solution est tout de même commercialisée, et est utilisé par Disney sur
 
 ### Capteur dédié
 
-La dernière solution et certainement la plus efficace et l'implémentation d'un capteur dédié à la communication par lumière visible dans les smartphones. De tels capteurs seront probablement présent dans la plupart des smartphones haut de gamme d'ici 5 ans. Par exemple, le premier smartphone présentant un capteur dédié LiFi a été présenté au CES 2014 par la société [oledcomm](http://www.oledcomm.com/).
+La dernière solution et certainement la plus efficace et l'implémentation d'un capteur dédié à la communication par lumière visible dans les smartphones. De tels capteurs seront probablement présent dans la plupart des smartphones haut de gamme d'ici 5 ans. Par exemple, le premier smartphone présentant un capteur dédié LiFi a été présenté au [CES 2014](http://www.frandroid.com/actualites-generales/186531_un-smartphone-solaire-compatible-lifi-linconnu-du-ces-2014) par la société [oledcomm](http://www.oledcomm.com/).
 
 
 

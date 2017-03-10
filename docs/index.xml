@@ -131,7 +131,7 @@ De plus il n&amp;rsquo;y a pas d&amp;rsquo;interférences avec les radio fréque
       <guid>/post/vlc-applications/</guid>
       <description>
 
-&lt;h1 id=&#34;vlc-pour-l-internet-des-objets&#34;&gt;VLC pour l&amp;rsquo;Internet des objets&lt;/h1&gt;
+&lt;h2 id=&#34;vlc-pour-l-internet-des-objets&#34;&gt;VLC pour l&amp;rsquo;Internet des objets&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Bas débit : ~100bit/s à ~10kbit/s &lt;/li&gt;
@@ -140,35 +140,60 @@ De plus il n&amp;rsquo;y a pas d&amp;rsquo;interférences avec les radio fréque
 &lt;li&gt;Réduire les coûts de production&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;les-smart-cities&#34;&gt;Les smart cities&lt;/h1&gt;
+&lt;h2 id=&#34;les-smart-cities&#34;&gt;Les smart cities&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/vlc-applications/cars.png&#34; alt=&#34;&#34; /&gt;
 &lt;img src=&#34;./img/vlc-applications/traffic.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;vlc-dans-le-transport&#34;&gt;VLC dans le transport&lt;/h1&gt;
+&lt;h2 id=&#34;vlc-dans-le-transport&#34;&gt;VLC dans le transport&lt;/h2&gt;
 
-&lt;h1 id=&#34;le-li-fi&#34;&gt;Le Li-Fi&lt;/h1&gt;
+&lt;p&gt;En 2013, la SNCF a commencé à travailler avec oledcom pour utiliser les technologies de la communication par lumière visible dans les TGV et les gares (voir présentation du projet &lt;a href=&#34;http://actions-incitatives.ifsttar.fr/fileadmin/uploads/recherches/geri/ntic/NTIC-28mars13/9-B-GHANNOUM_partieSNCF.pdf&#34; target=&#34;_blank&#34;&gt;ici&lt;/a&gt;).&lt;/p&gt;
 
-&lt;h1 id=&#34;le-jeu-et-le-divertissement&#34;&gt;Le jeu et le divertissement&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/vlc-applications/disney_1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/vlc-applications/disney_2.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;./img/vlc-applications/market_emitter.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;./img/vlc-applications/market_receiver.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/vlc-applications/market.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;./img/vlc-applications/museum.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;./img/vlc-applications/museum_2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Une idée est par exemple de transmettre des informations (perturbations de lignes, horaires d&amp;rsquo;arrivée, &amp;hellip;) aux voyageurs des TGV par l&amp;rsquo;intermédiaire des liseuses à LED présent au dessus de chaque voyageur.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/vlc-applications/sncf_lifi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;localisation-indoor&#34;&gt;Localisation Indoor&lt;/h1&gt;
+&lt;h2 id=&#34;le-li-fi&#34;&gt;Le Li-Fi&lt;/h2&gt;
+
+&lt;p&gt;Le Li-fi est souvent confondu directement avec VLC, mais ce n&amp;rsquo;est qu&amp;rsquo;une sous partie du VLC. En particulier, le Li-fi et la partie haut débit du VLC.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-applications/lifi.png&#34; alt=&#34;Li-Fi&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cette technologie vise à remplacer le wifi.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.numerama.com/tech/143911-quest-ce-que-le-li-fi-ce-reseau-qui-veut-illuminer-le-monde.html&#34; target=&#34;_blank&#34;&gt;Le Li-Fi peut-il révolutionner les réseaux sans-fil à la maison ?&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Pour fonctionner en Li-Fi une LED aura tout de même besoin d’une puce adaptée et d’être reliée à un réseau. Les lumières étant connectées au réseau électrique, la solution du CPL est très souvent utilisée. Un smartphone ou un ordinateur devra contenir un récepteur pour recevoir et décoder le signal lumineux. Celui-ci peut prendre la forme d’une clé USB équipée d’une photodiode, d’un écran photovoltaïque, ou encore utiliser la caméra du téléphone.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En 2014, l&amp;rsquo;équipe de recherche du projet &amp;ldquo;&lt;a href=&#34;http://up-vlc.photonics.ac.uk/&#34; target=&#34;_blank&#34;&gt;Ultra-parallel visible light communications (UP-VLC)&lt;/a&gt;&amp;rdquo; a obtenue des débits de plus de 10Gbps en utilisant de l&amp;rsquo;optoélectronique à base de GaN (Nitrure de Galium).&lt;/p&gt;
+
+&lt;p&gt;En 2015, un &lt;a href=&#34;http://ieeexplore.ieee.org/document/6967750/?arnumber=6967750&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; a été publié présentant un système de communication optique avec un débit de plus de 100Gbps.&lt;/p&gt;
+
+&lt;h2 id=&#34;le-jeu-et-le-divertissement&#34;&gt;Le jeu et le divertissement&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.disneyresearch.com/project/visible-light-communication/&#34; target=&#34;_blank&#34;&gt;site du projet de DisneyResearch&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-applications/disney_1.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;./img/vlc-applications/disney_2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;localisation-indoor&#34;&gt;Localisation Indoor&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;./img/vlc-applications/localisation_indoor_simple.png&#34; alt=&#34;&#34; /&gt;
 &lt;img src=&#34;./img/vlc-applications/localisation_indoor_tri.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;online-to-offline-marketing&#34;&gt;Online to Offline Marketing&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;./img/vlc-applications/market_emitter.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;./img/vlc-applications/market_receiver.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;./img/vlc-applications/market.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;online-to-offline-marketing&#34;&gt;Online to Offline Marketing&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-applications/museum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;affichages-d-informations-contextuelles&#34;&gt;Affichages d&amp;rsquo;informations contextuelles&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-applications/museum_2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -211,7 +236,7 @@ Cette solution est tout de même commercialisée, et est utilisé par Disney sur
 
 &lt;h3 id=&#34;capteur-dédié&#34;&gt;Capteur dédié&lt;/h3&gt;
 
-&lt;p&gt;La dernière solution et certainement la plus efficace et l&amp;rsquo;implémentation d&amp;rsquo;un capteur dédié à la communication par lumière visible dans les smartphones. De tels capteurs seront probablement présent dans la plupart des smartphones haut de gamme d&amp;rsquo;ici 5 ans. Par exemple, le premier smartphone présentant un capteur dédié LiFi a été présenté au CES 2014 par la société &lt;a href=&#34;http://www.oledcomm.com/&#34; target=&#34;_blank&#34;&gt;oledcomm&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La dernière solution et certainement la plus efficace et l&amp;rsquo;implémentation d&amp;rsquo;un capteur dédié à la communication par lumière visible dans les smartphones. De tels capteurs seront probablement présent dans la plupart des smartphones haut de gamme d&amp;rsquo;ici 5 ans. Par exemple, le premier smartphone présentant un capteur dédié LiFi a été présenté au &lt;a href=&#34;http://www.frandroid.com/actualites-generales/186531_un-smartphone-solaire-compatible-lifi-linconnu-du-ces-2014&#34; target=&#34;_blank&#34;&gt;CES 2014&lt;/a&gt; par la société &lt;a href=&#34;http://www.oledcomm.com/&#34; target=&#34;_blank&#34;&gt;oledcomm&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h1 id=&#34;utilisation-de-la-caméra&#34;&gt;Utilisation de la caméra&lt;/h1&gt;
 
