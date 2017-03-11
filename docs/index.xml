@@ -315,16 +315,6 @@ Cette solution est tout de même commercialisée, et est utilisé par Disney sur
     </item>
     
     <item>
-      <title>Analyse du marcher pour VLC</title>
-      <link>/post/quel-marcher/</link>
-      <pubDate>Thu, 09 Mar 2017 15:51:37 +0100</pubDate>
-      
-      <guid>/post/quel-marcher/</guid>
-      <description>&lt;p&gt;Comming soon!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Conférence TED - Wireless data from every light bulb</title>
       <link>/publication/harald_hass/</link>
       <pubDate>Thu, 09 Mar 2017 15:53:48 +0100</pubDate>
@@ -357,6 +347,16 @@ Cette solution est tout de même commercialisée, et est utilisé par Disney sur
       <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/talk/example-talk/</guid>
+      <description>&lt;p&gt;La présentation est disponible sur &lt;a href=&#34;https://www.slideshare.net/secret/1fnjPtjQwtGQVD&#34; target=&#34;_blank&#34;&gt;slideshare&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Présentation - Visible Light Communication</title>
+      <link>/talk/presentation-vlc/</link>
+      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/presentation-vlc/</guid>
       <description>&lt;p&gt;La présentation est disponible sur &lt;a href=&#34;https://www.slideshare.net/secret/1fnjPtjQwtGQVD&#34; target=&#34;_blank&#34;&gt;slideshare&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>

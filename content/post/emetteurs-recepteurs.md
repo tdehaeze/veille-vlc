@@ -2,7 +2,7 @@
 title   = "Les émetteurs et récepteurs pour VLC"
 date    = "2017-03-09T15:58:33+01:00"
 weight  = 2
-summary = ""
+summary = "Intéressons nous de plus prêt aux émetteurs et récepteurs utilisés dans la communication par lumière visible : la LED, le LASER, la photodiode..."
 
 draft   = ""
 tags    = []
