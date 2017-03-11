@@ -174,21 +174,39 @@ Dans le cas de la réception du signal par un smartphone, j&amp;rsquo;ai écrit 
       <guid>/post/vlc-applications/</guid>
       <description>
 
+&lt;p&gt;Les applications de la communication par lumière visible sont nombreuses, certaines sont déjà largement utilisés actuellement, mais la plupart des applications sont à l&amp;rsquo;état de recherche et semblent prometteuses.&lt;/p&gt;
+
 &lt;h2 id=&#34;vlc-pour-l-internet-des-objets&#34;&gt;VLC pour l&amp;rsquo;Internet des objets&lt;/h2&gt;
 
+&lt;p&gt;Tout d&amp;rsquo;abord, regardons si VLC a une application dans le cadre de l&amp;rsquo;Internet des objets.&lt;/p&gt;
+
+&lt;p&gt;Comme nous l&amp;rsquo;avons vu dans l&amp;rsquo;&lt;a href=&#34;../post/qu-est-ce-que-vlc/&#34; target=&#34;_blank&#34;&gt;article de présentation&lt;/a&gt;, la communication par lumière visible à base de LED à de nombreuses caractéristiques qui correspondent bien à une utilisation dans le cadre de l&amp;rsquo;Internet des objets:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;Bas débit : ~100bit/s à ~10kbit/s &lt;/li&gt;
-&lt;li&gt;Décongestionner les réseaux et désaturer le spectre des radio fréquences&lt;/li&gt;
-&lt;li&gt;Optimiser la consommation énergétique, l’autonomie&lt;/li&gt;
-&lt;li&gt;Réduire les coûts de production&lt;/li&gt;
+&lt;li&gt;bas débit : ~100bit/s à ~10kbit/s &lt;/li&gt;
+&lt;li&gt;permet de décongestionner les réseaux et désaturer le spectre des radio fréquences&lt;/li&gt;
+&lt;li&gt;optimisation la consommation énergétique ce qui permet une augmentation de l&amp;rsquo;autonomie, critique pour l&amp;rsquo;IoT&lt;/li&gt;
+&lt;li&gt;faible coût en comparaison d&amp;rsquo;une technologie RF&lt;/li&gt;
+&lt;li&gt;sécurisation des données&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;les-smart-cities&#34;&gt;Les smart cities&lt;/h2&gt;
+&lt;p&gt;Ainsi, l&amp;rsquo;Internet des Objets risque d&amp;rsquo;être une application important de la communication par lumière visible.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/cars.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;../img/vlc-applications/traffic.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;le-jeu-et-le-divertissement&#34;&gt;Le jeu et le divertissement&lt;/h3&gt;
 
-&lt;h2 id=&#34;vlc-dans-le-transport&#34;&gt;VLC dans le transport&lt;/h2&gt;
+&lt;p&gt;Le laboratoire Disney Research a une équipe de recherche sur la communication par lumière visible . L&amp;rsquo;idée est de permettre une communication entre l&amp;rsquo;enfant et le jouet par l&amp;rsquo;intermédiaire de lumière visible, de nombreux articles sont disponibles sur leur &lt;a href=&#34;https://www.disneyresearch.com/project/visible-light-communication/&#34; target=&#34;_blank&#34;&gt;siteweb&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/disney_1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;les-villes-intelligentes&#34;&gt;Les villes intelligentes&lt;/h3&gt;
+
+&lt;p&gt;Des études et expérimentations sont effectués pour intégrer de la communication par lumière visible dans les villes intelligentes.&lt;/p&gt;
+
+&lt;p&gt;Par exemple, les feux de signalisations pourraient avertir les voitures autonomes de leur état. Des communications entre véhicules sont aussi envisageables.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/cars.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;vlc-dans-le-transport&#34;&gt;VLC dans le transport&lt;/h3&gt;
 
 &lt;p&gt;En 2013, la SNCF a commencé à travailler avec oledcom pour utiliser les technologies de la communication par lumière visible dans les TGV et les gares (voir présentation du projet &lt;a href=&#34;http://actions-incitatives.ifsttar.fr/fileadmin/uploads/recherches/geri/ntic/NTIC-28mars13/9-B-GHANNOUM_partieSNCF.pdf&#34; target=&#34;_blank&#34;&gt;ici&lt;/a&gt;).&lt;/p&gt;
 
@@ -202,41 +220,61 @@ Dans le cas de la réception du signal par un smartphone, j&amp;rsquo;ai écrit 
 
 &lt;p&gt;&lt;img src=&#34;../img/vlc-applications/lifi.png&#34; alt=&#34;Li-Fi&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Cette technologie vise à remplacer le wifi.&lt;/p&gt;
+&lt;p&gt;Cette technologie a de nombreuses application. Elle pourrait par exemple venir en complément du wifi, remplacer la plupart des communications haut débits sans fils et courtes distances. Je vous invite à consulter l&amp;rsquo;&lt;a href=&#34;http://www.numerama.com/tech/143911-quest-ce-que-le-li-fi-ce-reseau-qui-veut-illuminer-le-monde.html&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; &amp;ldquo;&lt;em&gt;Le Li-Fi peut-il révolutionner les réseaux sans-fil à la maison ?&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.numerama.com/tech/143911-quest-ce-que-le-li-fi-ce-reseau-qui-veut-illuminer-le-monde.html&#34; target=&#34;_blank&#34;&gt;Le Li-Fi peut-il révolutionner les réseaux sans-fil à la maison ?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Beaucoup de recherches sont effectuées pour obtenir des débits de plus en plus important. En 2014, l&amp;rsquo;équipe de recherche du projet &amp;ldquo;&lt;a href=&#34;http://up-vlc.photonics.ac.uk/&#34; target=&#34;_blank&#34;&gt;Ultra-parallel visible light communications (UP-VLC)&lt;/a&gt;&amp;rdquo; a obtenue des débits de plus de 10Gbps en utilisant de l&amp;rsquo;optoélectronique à base de GaN (Nitrure de Galium). En 2015, un &lt;a href=&#34;http://ieeexplore.ieee.org/document/6967750/?arnumber=6967750&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; a été publié présentant un système de communication optique avec un débit de plus de 100Gbps.&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Pour fonctionner en Li-Fi une LED aura tout de même besoin d’une puce adaptée et d’être reliée à un réseau. Les lumières étant connectées au réseau électrique, la solution du CPL est très souvent utilisée. Un smartphone ou un ordinateur devra contenir un récepteur pour recevoir et décoder le signal lumineux. Celui-ci peut prendre la forme d’une clé USB équipée d’une photodiode, d’un écran photovoltaïque, ou encore utiliser la caméra du téléphone.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;La première commercialisation d&amp;rsquo;un système LiFi bidirectionnel haut débit est très récente (2016).&lt;/p&gt;
 
-&lt;p&gt;En 2014, l&amp;rsquo;équipe de recherche du projet &amp;ldquo;&lt;a href=&#34;http://up-vlc.photonics.ac.uk/&#34; target=&#34;_blank&#34;&gt;Ultra-parallel visible light communications (UP-VLC)&lt;/a&gt;&amp;rdquo; a obtenue des débits de plus de 10Gbps en utilisant de l&amp;rsquo;optoélectronique à base de GaN (Nitrure de Galium).&lt;/p&gt;
-
-&lt;p&gt;En 2015, un &lt;a href=&#34;http://ieeexplore.ieee.org/document/6967750/?arnumber=6967750&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; a été publié présentant un système de communication optique avec un débit de plus de 100Gbps.&lt;/p&gt;
-
-&lt;h2 id=&#34;le-jeu-et-le-divertissement&#34;&gt;Le jeu et le divertissement&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.disneyresearch.com/project/visible-light-communication/&#34; target=&#34;_blank&#34;&gt;site du projet de DisneyResearch&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/disney_1.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;../img/vlc-applications/disney_2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cette&lt;/em&gt; technologie étant encore récente, certains standards commencent à se mettre en places, notamment le standard &amp;ldquo;&lt;em&gt;&lt;a href=&#34;http://www.ieee802.org/15/pub/TG7.html&#34; target=&#34;_blank&#34;&gt;IEEE 802.15.7&lt;/a&gt;: Visible Light Communication&lt;/em&gt;&amp;rdquo;. Il y a également le &lt;a href=&#34;http://www.vlcc.net/?ml_lang=en&#34; target=&#34;_blank&#34;&gt;Visible Light Communications Consortium&lt;/a&gt; qui est un regroupement de plusieurs entreprises japonaises dont le but est standardiser les technologies VLC et éviter la multiplication de protocoles.&lt;/p&gt;
 
 &lt;h2 id=&#34;localisation-indoor&#34;&gt;Localisation Indoor&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/localisation_indoor_simple.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;../img/vlc-applications/localisation_indoor_tri.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;La localisation Indoor est un marcher très important, et la communication par lumière visible a de nombreux atout pouvant lui permettre de devenir la technologie prépondérante pour ce type d&amp;rsquo;applications. Pour l&amp;rsquo;instant les méthodes de localisations indoor utilisent principalement deux techniques:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/market_emitter.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;../img/vlc-applications/market_receiver.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;../img/vlc-applications/market.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;la localisation par ID&lt;/li&gt;
+&lt;li&gt;la localisation par triangulation&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;online-to-offline-marketing&#34;&gt;Online to Offline Marketing&lt;/h2&gt;
+&lt;h3 id=&#34;la-localisation-par-id&#34;&gt;La localisation par ID&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/museum.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;La localisation par ID correspond à une méthode ou l&amp;rsquo;on capte (un ou plusieurs) émetteurs qui individuellement transmettent un identifiant ou une localisation. Le recepteur peut alors déterminer sa position en fonction des informations qu&amp;rsquo;il reçoit.
+Ceci existe par exemple en technologie bluetooth : le &lt;a href=&#34;https://fr.wikipedia.org/wiki/IBeacon&#34; target=&#34;_blank&#34;&gt;iBeacon&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;affichages-d-informations-contextuelles&#34;&gt;Affichages d&amp;rsquo;informations contextuelles&lt;/h2&gt;
+&lt;p&gt;En technologie VLC, l&amp;rsquo;idée est la suivante: on positionne dans la pièce une série de lampes qui transmette des identifiants que l&amp;rsquo;on récupère sur un smartphone. Puis, chaque identifiant étant associé à une emplacement, on peut récupérer l&amp;rsquo;information en position sur le smartphone.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/museum_2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/localisation_indoor_simple.png&#34; alt=&#34;Indoor localisation VLC&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cette technique est utilisée par &lt;a href=&#34;http://www.lighting.philips.com/main/systems/themes/led-based-indoor-positioning.html&#34; target=&#34;_blank&#34;&gt;Philips&lt;/a&gt; qui commercialise un système de positionnement Indoor utilisant à destination de l&amp;rsquo;industrie de la grande distribution. Carrefour expérimente ceci dans un de leur supermarché à Lille, je vous laisse voir la présentation vidéo de ce projet ci dessous.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/uQw-o6bjrec&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;Ce système est également utilisé par &amp;ldquo;&lt;em&gt;Nakagawa Laboratories&lt;/em&gt;&amp;rdquo; (&lt;a href=&#34;http://www.naka-lab.jp/lab/flow_e.html&#34; target=&#34;_blank&#34;&gt;site&lt;/a&gt;] pour faire des recherches sur les déplacements de clients dans des magasins.&lt;/p&gt;
+
+&lt;p&gt;La précision d&amp;rsquo;un tel dispositif va dépendre de la densité de lampes au plafond, il est donc compliqué d&amp;rsquo;obtenir des précisions en dessous du mettre.&lt;/p&gt;
+
+&lt;h3 id=&#34;la-localisation-par-triangulation&#34;&gt;La localisation par triangulation&lt;/h3&gt;
+
+&lt;p&gt;Cependant, des applications requièrent des précisions supérieures que l&amp;rsquo;on peut obtenir toujours en technologie VLC mais cette fois ci en utilisant une autre technique: la triangulation.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;idée est un peu la même que pour le GPS. La précision obtenue est de l&amp;rsquo;ordre de 10cm en positionnement et de 3° en orientation. Pour plus d&amp;rsquo;informations sur ce dispositifs, consultez l&amp;rsquo;&lt;a href=&#34;http://delivery.acm.org/10.1145/2640000/2639109/p447-kuo.pdf?ip=82.67.46.200&amp;amp;id=2639109&amp;amp;acc=OA&amp;amp;key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E41C3AB142B7F1C53&amp;amp;CFID=910308311&amp;amp;CFTOKEN=26201704&amp;amp;__acm__=1489240673_e7526bdd8a88e9f36c5832d822501034&#34; target=&#34;_blank&#34;&gt;article de recherche&lt;/a&gt; &amp;ldquo;&lt;em&gt;Indoor Positioning with Mobile Phones and Visible Light&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/vlc-applications/localisation_indoor_tri.jpg&#34; alt=&#34;Indoor Localisation VLC Photometrie&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;online-to-offline-marketing-micro-localisation-affichages-d-informations-contextuelles&#34;&gt;Online to Offline Marketing, Micro localisation, Affichages d&amp;rsquo;informations contextuelles&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;Beaucoup d&amp;rsquo;autres applications sont possibles.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;idée est de transmettre des offres promotionnelles qui puissent être captés directement sur les smartphone. Puis dans les magasins, il y possible de transmettre de l&amp;rsquo;information par rapport à un article par la lumière qui éclaire l&amp;rsquo;objet, puis d&amp;rsquo;en récupérer l&amp;rsquo;information sur un téléphone par lumière indirecte.
+&lt;img src=&#34;../img/vlc-applications/on_off_marketing.png&#34; alt=&#34;Online to offline Marketing&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;affichage d&amp;rsquo;informations contextuelles est également possible dans les musées pour afficher des informations concernant les œuvres exposées.
+&lt;img src=&#34;../img/vlc-applications/museum_2.png&#34; alt=&#34;VLC et Musée&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
