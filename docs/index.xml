@@ -44,7 +44,7 @@
 
 &lt;p&gt;&lt;img src=&#34;./img/vlc-definition/ampoule_led.png&#34; alt=&#34;Ampoule LED&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Le récepteur va lui être une photodiode, bien qu&amp;rsquo;ils existent d&amp;rsquo;autres systèmes pour récupérer l&amp;rsquo;information lumineuse, par exemple pour les smartphone (voir article &lt;a href=&#34;./post/vlc-et-smartphone/&#34; target=&#34;_blank&#34;&gt;VLC et Smartphone&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Le récepteur va lui être une photodiode, bien qu&amp;rsquo;ils existent d&amp;rsquo;autres systèmes pour récupérer l&amp;rsquo;information lumineuse, par exemple pour les smartphone (voir &lt;a href=&#34;./post/vlc-et-smartphone/&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; VLC et Smartphone).&lt;/p&gt;
 
 &lt;h2 id=&#34;origines&#34;&gt;Origines&lt;/h2&gt;
 
@@ -119,7 +119,50 @@ De plus il n&amp;rsquo;y a pas d&amp;rsquo;interférences avec les radio fréque
       <pubDate>Thu, 09 Mar 2017 15:58:33 +0100</pubDate>
       
       <guid>/post/emetteurs-recepteurs/</guid>
-      <description>&lt;p&gt;Comming soon!&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Intéressons nous de plus prêt aux émetteurs et récepteurs utilisés dans la communication par lumière visible.&lt;/p&gt;
+
+&lt;h1 id=&#34;les-émetteurs&#34;&gt;Les émetteurs&lt;/h1&gt;
+
+&lt;p&gt;Il y a principalement deux types d&amp;rsquo;émetteurs &amp;ldquo;actifs&amp;rdquo; : la &lt;a href=&#34;#la-led&#34;&gt;LED&lt;/a&gt; et le &lt;a href=&#34;#le-laser&#34;&gt;LASER&lt;/a&gt;. Il existe des composants plus exotiques dont je ne parlerais pas ici, mais aussi des &lt;a href=&#34;#les-émetteurs-passifs&#34;&gt;émetteurs &amp;ldquo;passifs&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;la-led&#34;&gt;La LED&lt;/h2&gt;
+
+&lt;p&gt;Probablement le composant le plus utilisé lorsqu&amp;rsquo;il s&amp;rsquo;agit de faire de la communication par lumière visible. Ce composant présente de nombreux avantages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;comme le montre la courbe ci dessous, le ratio coût/luminosité est vraiment bon et se rapproche des lampes à incandescence bon marcher. Mais surtout, les LED sont peu consommatrices d&amp;rsquo;énergie. Cela est très intéressant pour toutes les applications IoT pour la contrainte de coût et de consommation est forte&lt;/li&gt;
+&lt;li&gt;de plus les LEDs ont des fréquences de coupure assez élevés ce qui permet d&amp;rsquo;avoir de bonnes vitesses de commutations afin d&amp;rsquo;obtenir de bon débits&lt;/li&gt;
+&lt;li&gt;finalement, du fait même que la LED soit de plus en plus utilisée (phares de voitures, éclairage public, éclairage des bâtiments, &amp;hellip;) permet une multiplication des applications en utilisant les LEDs déjà présentes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-led/LED_brigthness.png&#34; alt=&#34;led brightness&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Les LEDS classiques à bas coûts ont tout de même des fréquences de coupure de l&amp;rsquo;ordre de 10MHz à 50MHz, ce qui permet d&amp;rsquo;obtenir des débits correctes pour de nombreuses applications. De nombreuses recherches se font pour obtenir des LEDS pouvant fonctionner à beaucoup plus haute fréquence. La technologie de LED haute fréquence la plus utilisée actuellement est à base d&amp;rsquo;&lt;a href=&#34;https://fr.wikipedia.org/wiki/Ars%C3%A9niure_de_gallium&#34; target=&#34;_blank&#34;&gt;arséniure de Gallium&lt;/a&gt; (GaAs, semi conducteur III-V) qui permet d&amp;rsquo;obtenir une fréquence de coupure supérieure à 100GHz.&lt;/p&gt;
+
+&lt;h2 id=&#34;le-laser&#34;&gt;Le LASER&lt;/h2&gt;
+
+&lt;p&gt;Le LASER, bien que plus coûteux que la LED, a l&amp;rsquo;avantage de permettre des communications à plus grande distance du fait de la faible dispersion de son émission lumineuse. L&amp;rsquo;utilisation du LASER est donc plus adapté aux communications à plus longue distances, principalement entre infrastructures.&lt;/p&gt;
+
+&lt;p&gt;Par exemple, ci dessous un Laser permettant un débit de 1Gbits/s à une distance de 2 km entre bâtiments.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-led/FSO_laser.jpg&#34; alt=&#34;Laser Link&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Les LASER sont également utilisés pour des communications très haut débits entres satellites (voir &lt;a href=&#34;https://fr.wikipedia.org/wiki/European_Data_Relay_Satellite&#34; target=&#34;_blank&#34;&gt;European Data Relay Satellite&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h2 id=&#34;les-émetteurs-passifs&#34;&gt;Les émetteurs passifs&lt;/h2&gt;
+
+&lt;p&gt;Il existe également des techniques dites &amp;ldquo;passives&amp;rdquo;. En fait, c&amp;rsquo;est la modulation de la lumière qui va être passive.&lt;/p&gt;
+
+&lt;p&gt;Un exemple d&amp;rsquo;application est présenté dans l&amp;rsquo;&lt;a href=&#34;http://www.st.ewi.tudelft.nl/~marco/files/passive_CoNEXT16.pdf&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; &amp;ldquo;&lt;em&gt;Passive Communication with Ambient Light&lt;/em&gt;&amp;rdquo;. Un camion va être équipé d&amp;rsquo;une surface contenant plusieurs matériaux réfléchissant. La photodiode va récupérer le signal réfléchi par le camion qui va donc être modulé. Grâce à cette technique, il est possible de transmettre une information sur le camion par exemple.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/vlc-led/passive_emitter.png&#34; alt=&#34;émetteur passif&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;les-récepteurs&#34;&gt;Les récepteurs&lt;/h1&gt;
+
+&lt;p&gt;Il existe de nombreux récepteurs: les photo diodes, les photo transistors, les photo multiplicateurs, les photo résistances, &amp;hellip; Chaque récepteur a des avantages et des inconvénients, je vous invite à consulter l&amp;rsquo;&lt;a href=&#34;http://www.johnloomis.org/ece445/topics/egginc/tp4.html&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; &amp;ldquo;&lt;em&gt;Choosing the Detector for your Unique Light Sensing Application&lt;/em&gt;&amp;rdquo; pour en savoir plus sur le sujet.
+Dans le cas de la réception du signal par un smartphone, j&amp;rsquo;ai écrit un &lt;a href=&#34;./post/vlc-et-smartphone/&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; dédié sur le sujet.&lt;/p&gt;
 </description>
     </item>
     
@@ -300,21 +343,20 @@ Cette solution est tout de même commercialisée, et est utilisé par Disney sur
     </item>
     
     <item>
+      <title>VLC Technology for Indoor LTE Planning</title>
+      <link>/publication/lte-planning/</link>
+      <pubDate>Thu, 09 Mar 2017 15:53:48 +0100</pubDate>
+      
+      <guid>/publication/lte-planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Présentation - Visible Light Communication</title>
       <link>/talk/example-talk/</link>
       <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/talk/example-talk/</guid>
-      <description>&lt;p&gt;La présentation est disponible sur &lt;a href=&#34;https://www.slideshare.net/secret/1fnjPtjQwtGQVD&#34; target=&#34;_blank&#34;&gt;slideshare&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Présentation - Visible Light Communication</title>
-      <link>/talk/presentation-vlc/</link>
-      <pubDate>Fri, 03 Mar 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/presentation-vlc/</guid>
       <description>&lt;p&gt;La présentation est disponible sur &lt;a href=&#34;https://www.slideshare.net/secret/1fnjPtjQwtGQVD&#34; target=&#34;_blank&#34;&gt;slideshare&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>

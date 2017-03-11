@@ -220,7 +220,50 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <p>Comming soon!</p>
+      
+
+<p>Intéressons nous de plus prêt aux émetteurs et récepteurs utilisés dans la communication par lumière visible.</p>
+
+<h1 id="les-émetteurs">Les émetteurs</h1>
+
+<p>Il y a principalement deux types d&rsquo;émetteurs &ldquo;actifs&rdquo; : la <a href="#la-led">LED</a> et le <a href="#le-laser">LASER</a>. Il existe des composants plus exotiques dont je ne parlerais pas ici, mais aussi des <a href="#les-émetteurs-passifs">émetteurs &ldquo;passifs&rdquo;</a>.</p>
+
+<h2 id="la-led">La LED</h2>
+
+<p>Probablement le composant le plus utilisé lorsqu&rsquo;il s&rsquo;agit de faire de la communication par lumière visible. Ce composant présente de nombreux avantages:</p>
+
+<ul>
+<li>comme le montre la courbe ci dessous, le ratio coût/luminosité est vraiment bon et se rapproche des lampes à incandescence bon marcher. Mais surtout, les LED sont peu consommatrices d&rsquo;énergie. Cela est très intéressant pour toutes les applications IoT pour la contrainte de coût et de consommation est forte</li>
+<li>de plus les LEDs ont des fréquences de coupure assez élevés ce qui permet d&rsquo;avoir de bonnes vitesses de commutations afin d&rsquo;obtenir de bon débits</li>
+<li>finalement, du fait même que la LED soit de plus en plus utilisée (phares de voitures, éclairage public, éclairage des bâtiments, &hellip;) permet une multiplication des applications en utilisant les LEDs déjà présentes</li>
+</ul>
+
+<p><img src="../../img/vlc-led/LED_brigthness.png" alt="led brightness" /></p>
+
+<p>Les LEDS classiques à bas coûts ont tout de même des fréquences de coupure de l&rsquo;ordre de 10MHz à 50MHz, ce qui permet d&rsquo;obtenir des débits correctes pour de nombreuses applications. De nombreuses recherches se font pour obtenir des LEDS pouvant fonctionner à beaucoup plus haute fréquence. La technologie de LED haute fréquence la plus utilisée actuellement est à base d&rsquo;<a href="https://fr.wikipedia.org/wiki/Ars%C3%A9niure_de_gallium" target="_blank">arséniure de Gallium</a> (GaAs, semi conducteur III-V) qui permet d&rsquo;obtenir une fréquence de coupure supérieure à 100GHz.</p>
+
+<h2 id="le-laser">Le LASER</h2>
+
+<p>Le LASER, bien que plus coûteux que la LED, a l&rsquo;avantage de permettre des communications à plus grande distance du fait de la faible dispersion de son émission lumineuse. L&rsquo;utilisation du LASER est donc plus adapté aux communications à plus longue distances, principalement entre infrastructures.</p>
+
+<p>Par exemple, ci dessous un Laser permettant un débit de 1Gbits/s à une distance de 2 km entre bâtiments.</p>
+
+<p><img src="../../img/vlc-led/FSO_laser.jpg" alt="Laser Link" /></p>
+
+<p>Les LASER sont également utilisés pour des communications très haut débits entres satellites (voir <a href="https://fr.wikipedia.org/wiki/European_Data_Relay_Satellite" target="_blank">European Data Relay Satellite</a>).</p>
+
+<h2 id="les-émetteurs-passifs">Les émetteurs passifs</h2>
+
+<p>Il existe également des techniques dites &ldquo;passives&rdquo;. En fait, c&rsquo;est la modulation de la lumière qui va être passive.</p>
+
+<p>Un exemple d&rsquo;application est présenté dans l&rsquo;<a href="http://www.st.ewi.tudelft.nl/~marco/files/passive_CoNEXT16.pdf" target="_blank">article</a> &ldquo;<em>Passive Communication with Ambient Light</em>&rdquo;. Un camion va être équipé d&rsquo;une surface contenant plusieurs matériaux réfléchissant. La photodiode va récupérer le signal réfléchi par le camion qui va donc être modulé. Grâce à cette technique, il est possible de transmettre une information sur le camion par exemple.</p>
+
+<p><img src="../../img/vlc-led/passive_emitter.png" alt="émetteur passif" /></p>
+
+<h1 id="les-récepteurs">Les récepteurs</h1>
+
+<p>Il existe de nombreux récepteurs: les photo diodes, les photo transistors, les photo multiplicateurs, les photo résistances, &hellip; Chaque récepteur a des avantages et des inconvénients, je vous invite à consulter l&rsquo;<a href="http://www.johnloomis.org/ece445/topics/egginc/tp4.html" target="_blank">article</a> &ldquo;<em>Choosing the Detector for your Unique Light Sensing Application</em>&rdquo; pour en savoir plus sur le sujet.
+Dans le cas de la réception du signal par un smartphone, j&rsquo;ai écrit un <a href="../../post/vlc-et-smartphone/" target="_blank">article</a> dédié sur le sujet.</p>
 
     </div>
   </div>

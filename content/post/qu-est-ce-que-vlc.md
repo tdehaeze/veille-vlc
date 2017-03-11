@@ -36,7 +36,7 @@ Ici l'émetteur va généralement être une [Diode électroluminescente](https:/
 
 ![Ampoule LED](/img/vlc-definition/ampoule_led.png)
 
-Le récepteur va lui être une photodiode, bien qu'ils existent d'autres systèmes pour récupérer l'information lumineuse, par exemple pour les smartphone (voir article [VLC et Smartphone]({{< relref "vlc-et-smartphone.md" >}})).
+Le récepteur va lui être une photodiode, bien qu'ils existent d'autres systèmes pour récupérer l'information lumineuse, par exemple pour les smartphone (voir [article]({{< relref "vlc-et-smartphone.md" >}}) VLC et Smartphone).
 
 ## Origines
 
